@@ -15,7 +15,7 @@ jobs:
     - name: Build the Docker-image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
       
-    - uses: LChaudhari/demodoc@v5
+    - uses: LChaudhari/git_to_aws-ecr-@v5
       with:
         image: "dockerdemo"
         registry: 018442532737.dkr.ecr.us-east-1.amazonaws.com
