@@ -1,2 +1,4 @@
-# git_to_aws-ecr-
-send the docker image to aws-ecr
+# demodoc
+## Example usage
+
+uses: LChaudhari/demodoc@v5
